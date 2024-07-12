@@ -41,6 +41,7 @@ struct SIUpdatePopupView: View {
                 Button {
                     if let url = URL(string: "https://apps.apple.com/us/app/your-app-id") {
                         UIApplication.shared.open(url)
+                        isPresented = false
                     }
                 } label: {
                     Text("Update Now")
