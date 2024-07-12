@@ -11,6 +11,7 @@
 		2962667B2C410FAB00EBC29C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962667A2C410FAB00EBC29C /* ContentView.swift */; };
 		2962667D2C410FAC00EBC29C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2962667C2C410FAC00EBC29C /* Assets.xcassets */; };
 		296266802C410FAC00EBC29C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2962667F2C410FAC00EBC29C /* Preview Assets.xcassets */; };
+		296266882C41104500EBC29C /* SIUpdatePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296266872C41104500EBC29C /* SIUpdatePopupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2962667A2C410FAB00EBC29C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2962667C2C410FAC00EBC29C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2962667F2C410FAC00EBC29C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		296266872C41104500EBC29C /* SIUpdatePopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIUpdatePopupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		296266772C410FAB00EBC29C /* SICustomComponents */ = {
 			isa = PBXGroup;
 			children = (
+				296266862C41101500EBC29C /* Custom Components */,
 				296266782C410FAB00EBC29C /* SICustomComponentsApp.swift */,
 				2962667A2C410FAB00EBC29C /* ContentView.swift */,
 				2962667C2C410FAC00EBC29C /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				2962667F2C410FAC00EBC29C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		296266862C41101500EBC29C /* Custom Components */ = {
+			isa = PBXGroup;
+			children = (
+				296266872C41104500EBC29C /* SIUpdatePopupView.swift */,
+			);
+			path = "Custom Components";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2962667B2C410FAB00EBC29C /* ContentView.swift in Sources */,
+				296266882C41104500EBC29C /* SIUpdatePopupView.swift in Sources */,
 				296266792C410FAB00EBC29C /* SICustomComponentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
